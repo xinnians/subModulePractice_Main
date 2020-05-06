@@ -1,2 +1,4 @@
 rootProject.name='subModulePractice_Main'
 include ':app'
+include ':mylibrary'
+project(':mylibrary').projectDir = new File("libs/mylibrary")
